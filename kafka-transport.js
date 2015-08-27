@@ -76,8 +76,8 @@ module.exports = function(options) {
     }
   };
 
-  seneca.add({role:'transport',hook:'listen',type:'queue'}, hookListenQueue);
-  seneca.add({role:'transport',hook:'client',type:'queue'}, hookClientQueue);
+  seneca.add({role:'transport',hook:'listen',type:'kafka'}, hookListenQueue);
+  seneca.add({role:'transport',hook:'client',type:'kafka'}, hookClientQueue);
   seneca.add({role:'seneca',cmd:'close'}, shutdown);
  
   return {
