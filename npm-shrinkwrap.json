@@ -1,0 +1,19 @@
+{
+  "name": "nokt-backend",
+  "version": "1.0.0",
+  "dependencies": {
+    "microbial": {
+      "version": "*",
+      "dependencies": {
+        "prozess": {
+          "version": "*",
+          "dependencies": {
+            "bignum": {
+              "version": ">=0.9.2"
+            }
+          }
+        }
+      }
+    }
+  }
+}
