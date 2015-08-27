@@ -19,11 +19,11 @@
   "license": "MIT",
   "dependencies": {
     "kafkaesque": "~0.0.9",
-    "nid": "~0.3.2",
-    "underscore": "~1.6.0",
-    "uuid": "~1.4.1",
-    "node-zookeeper-client": "~0.2.1",
-    "microbial": "0.0.5"
+    "microbial": "0.0.5",
+    "nid": "^0.3.2",
+    "node-zookeeper-client": "^0.2.2",
+    "underscore": "^1.8.3",
+    "uuid": "~1.4.1"
   },
   "peerDependencies": {
     "seneca": "*"
