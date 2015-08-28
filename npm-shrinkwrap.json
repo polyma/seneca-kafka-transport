@@ -20,6 +20,30 @@
     "microbial": {
       "version": "*",
       "dependencies": {
+        "underscore": {
+          "version": "~1.4.2"
+        },
+        "patrun": {
+          "version": "~0.1.2"
+        },
+        "postal": {
+          "version": "~0.8.9"
+        },
+        "axon": {
+          "version": "~1.0.0"
+        },
+        "prozess": {
+          "version": "~0.6.4"
+        },
+        "kafkaesque": {
+          "version": "0.0.9"
+        },
+        "node-zookeeper-client": {
+          "version": "~0.2.1"
+        },
+        "uuid":{
+          "version":  "~1.4.1"
+        },
         "prozess": {
           "version": "*",
           "dependencies": {
