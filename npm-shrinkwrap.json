@@ -2,6 +2,11 @@
   "name": "nokt-backend",
   "version": "1.0.0",
   "dependencies": {
+    "kafkaesque": "~0.0.9",
+    "nid": "^0.3.2",
+    "node-zookeeper-client": "^0.2.2",
+    "underscore": "^1.8.3",
+    "uuid": "~1.4.1",
     "microbial": {
       "version": "*",
       "dependencies": {
