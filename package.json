@@ -19,7 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "kafkaesque": "~0.0.9",
-    "microbial": "0.0.5",
+    "microbial": "0.0.7",
     "nid": "^0.3.2",
     "node-zookeeper-client": "^0.2.2",
     "underscore": "^1.8.3",
